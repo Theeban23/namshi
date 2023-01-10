@@ -1,0 +1,134 @@
+.topnav{
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+.nav-link{
+    color:#000;
+    font-family: 'apercu_promedium';
+}
+.search_sec{
+    position: relative;
+}
+.search-bar{
+    background-color: #eeeeee;
+    height: 30px;
+    border:1px solid #8b92a3;
+    border-radius: 25px;
+    font-size: 12px;
+    color:#8b92a3;
+    width: 280px;
+    margin-top: 3px;
+}
+.search-btn{
+    border:none;
+    background-color: transparent;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    color:#8b92a3;
+}
+.namshibtn{
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: 'apercu_probold';
+    font-size: 25px;
+}
+.lead{
+    font-family: 'apercu_prolight';
+    font-size: 24px;
+    margin:50px auto;
+}
+.imgcap{    
+    font-family: 'apercu_promedium';
+    font-size: 24px;
+    margin:30px auto;
+}
+.namshi_heads{
+    font-family: 'apercu_promedium';
+    font-size: 48px;
+}
+.temp1 .namshi_imgs{    
+    position:relative;
+}
+.temp1 .namshi_imgs img{
+    width: auto;
+    max-height: 100%;
+}
+.temp1 .content-img{
+    z-index: 10000000;
+    margin-top:40px;
+}
+.temp1 .solid-bg{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    right: 220px;
+    width: 50%!important;
+}
+.temp1 .pattern-bg{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 125px;
+    width: 76%!important;
+}
+.temp2 .namshi_imgs{    
+    position:relative;
+}
+.temp2 .namshi_imgs img{
+    width: auto;
+    max-height: 100%;
+}
+.temp2 .content-img{
+    z-index: 10000000;
+    margin-top:40px;
+}
+.temp2 .solid-bg{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 220px;
+    width: 50%!important;
+}
+.temp2 .pattern-bg{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 125px;
+    width: 76%!important;
+}
+hr{
+    width: 60%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 778px){
+    .temp1 .solid-bg {
+        right: -70px;
+        width: 100%!important;
+    }
+    .temp1 .content-img{
+        margin-top:20px;
+        height:400px;
+    }
+    .temp1 .pattern-bg{
+        width:100%!important;
+        left:5px;
+    }
+    
+    .temp2 .solid-bg {
+        left: -70px;
+        width: 100%!important;
+    }
+    .temp2 .content-img{
+        margin-top:20px;
+        height:400px;
+    }
+    .temp2 .pattern-bg{
+        width:100%!important;
+        left:5px;
+    }
+    .namshi_heads {font-size: 36px;}
+}
